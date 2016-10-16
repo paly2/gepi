@@ -361,7 +361,7 @@ else if ($etape == 3) {
 	echo "<INPUT TYPE='text' NAME='table_new' CLASS='fondo' VALUE=\"gepi\" SIZE='20' /></fieldset>\n\n";
 	echo "<p><b>Attention</b> : lors de la prochaine étape :</p>\n";
 	echo "<ul>\n";
-	if (file_exists($nom_fic)) echo "<li>le fichier \"".$nom_fic."\" sera actualisé avec les données que vous avez fourni,</li>\n";
+	if (file_exists($nom_fic)) echo "<li>le fichier \"".$nom_fic."\" sera actualisé avec les données que vous avez fournies,</li>\n";
 	echo "<LI>les tables GEPI seront créées dans la base sélectionnée. Si celle-ci contient déjà des tables GEPI, ces tables, ainsi que les données qu'elles contiennent, seront supprimées et remplacées par une nouvelle structure.</LI>\n</ul>\n";
 
 	echo "<div style='text-align:right'><input type='submit' class='fondl' name='Valider' value='Suivant >>' /></div>\n";
